@@ -1,1 +1,1 @@
-A comparison between system call and filestream about filecopy
+A comparison between system call and filestream.
