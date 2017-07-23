@@ -31,7 +31,7 @@ int main(int argc,char **argv)
 	s_addr.sin_port = htons(atoi(argv[2]));
 
 	if(connect(sock, (struct sockaddr *)&s_addr, sizeof(s_addr)) == -1)
-		err_h("bind() error");
+		err_h("connect() error");
 	else
 		puts("Connected..");
 
